@@ -82,4 +82,7 @@ Repository URL:
 	https://github.com/tomyr95/GettingCleaningDataCourseProject		
 
 
+
+Thank you,
+
 Tomas R. Rodriguez
