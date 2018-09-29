@@ -44,6 +44,8 @@ We used the following files (in order) as inout to our project related to gettin
 	- 'UCI HAR Dataset/test/y_test.txt'		: Test labels.
 	- 'UCI HAR Dataset/test/subject_test.txt'	: Each row identifies the subject who performed the activity
 							   for each window sample. Its range is from 1 to 30. 
+							   
+	NOTE: Script runs based on placing fhe folder 'UCI HAR Dataset" in the working directory.
 
 Our goals in this project were to produce a tydy data table, script, and README file, that met the following:
 
