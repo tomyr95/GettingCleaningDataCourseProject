@@ -57,28 +57,7 @@ Our goals in this project were to produce a tydy data table, script, and README 
 	- From the data set in step 4, creates a second, independent tidy data set with the
 	   average of each variable for each activity and each subject.
 
-We completed this as scripted and annotated in the file 'run_analysis.R' with the following steps:
-
-	1) Load all data sets (read.table) into the following data_frames, similar to names in input tables:
-	    'features', 'activities', 'x_train', 'y_train', 'subject_train', 'x_test', 'y_test', 'subject_test'
-
-	2) For 'x_train', 'x_test' we reduced the table sizes by applying a filter via 'indexed' vector. 
-
-	3) "Mapped" the headings in 'features' via the 'indexed' vector into 'x_train', 'x_test'.
-
-	4) "Mapped" the lables in 'activities' into 'y_train', "y_test'.
-
-	5) Isolated 'subject' column in 'subject_train', subject_test.
-
-	6) We built up both datasets into 'train', 'test'.
-
-        7) Bound 'train', 'test' into 'final_data' (10299x81) for the final tydy table.
-
-	8) Created grouped, summarized 'mean_data' (180x81) for the tydy means.
-
-	9) 'mean_data' was uploaded to repository as 'means.txt'.
-
-	10) this README file uploaded to same repository.
+See 'codebook.txt' for detailed review of all the variables and summaries calculated, along with any other relevant information.
 
 Repository URL:
 
