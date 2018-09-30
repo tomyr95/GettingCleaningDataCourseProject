@@ -3,8 +3,6 @@ title: "Codebook for run_analysis.R"
 author: "Tomas R. Rodriguez"
 date: "9/29/2018"
 output: "tidy_data.txt""
-  html_document:
-    keep_md: yes
 ---
 
 ## Project Description
